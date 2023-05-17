@@ -37,8 +37,48 @@ header nav a {
 } 
 
 /* Heres the main */
+main {
+    position: relative;
+}
+
+main p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40%;
+    width: 40%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 150px 150px 150px 0;
+    font-size: 30px;
+    padding: 35px;
+    background-color: var(--accent);
+    text-align: center;
+    line-height: 37px;
+}
+
+main a {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    font-size: 36px;
+    color: var(--teal);
+    border: solid var(--teal);
+    border-radius: 60px;
+    padding: 30px 50px;
+}
+
 .man-camera {
     width: 100%;
     position: relative;
 }
 
+.bckground-img {
+    background: url('../assets/man-throw-camera-pixify.png');
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 54px);
+}
