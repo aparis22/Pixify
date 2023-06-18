@@ -48,3 +48,14 @@ const submissions = [
         ]
     }
 ];
+
+const photoDiv = items.map((photo) => {
+    return `<div>
+        <img src="${submissions.images[1]}">
+        <p>${submissions.title} - ${submissions.name}</p>
+    </div>`
+});
+
+let container = document.getElementById("submissions-container");
+
+container.innerHTML = photoDiv;

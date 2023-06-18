@@ -80,5 +80,5 @@ main a {
     background: url('../assets/man-throw-camera-pixify.png');
     background-position: center;
     background-size: cover;
-    height: calc(100vh - 54px);
+    height: calc(100vh - 50px);
 }
