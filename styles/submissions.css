@@ -50,3 +50,29 @@ header nav a {
     margin-right: 20px;
     margin-left: 10px;
 }
+
+/* time for the main */
+
+main h1 {
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#submissions-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.submission {
+    width: 350px;
+    height: 215px;
+    border-radius: 10px;
+    margin: 20px;
+}

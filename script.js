@@ -49,10 +49,10 @@ const submissions = [
     }
 ];
 
-const photoDiv = items.map((photo) => {
+const photoDiv = submissions.map((item) => {
     return `<div>
-        <img src="${submissions.images[1]}">
-        <p>${submissions.title} - ${submissions.name}</p>
+        <img class='submission' src=${item.images[0]}>
+        <p>${item.title} - ${item.name}</p>
     </div>`
 });
 
